@@ -2,7 +2,7 @@ import "./globals.css";
 import React, { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const syne = Syne({
   subsets: ["latin"],
