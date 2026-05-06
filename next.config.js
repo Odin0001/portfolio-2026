@@ -25,7 +25,7 @@ const nextConfig = {
   },
   optimizeFonts: true,
   productionBrowserSourceMaps: isProduction,
-  swcMinify: !isProduction,
+  swcMinify: true,
   images: {
     domains: ["raw.githubusercontent.com"],
   },

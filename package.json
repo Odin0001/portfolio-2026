@@ -1,11 +1,11 @@
 {
-  "name": "www.seekvisualartist.com",
+  "name": "www.philipjobran.com",
   "version": "5.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_ENV=production next build",
-    "build:dev": "NODE_ENV=production BRANCH=dev next build",
+    "build": "next build",
+    "build:dev": "BRANCH=dev next build",
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
@@ -31,12 +31,14 @@
     "resize-observer-polyfill": "^1.5.1",
     "scroller-motion": "^1.2.3",
     "sharp": "^0.32.0",
+    "three": "^0.184.0",
     "touch-cli": "^0.0.1",
     "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
     "@types/react": "18.0.28",
+    "@types/three": "^0.184.0",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "autoprefixer": "^10.4.13",
