@@ -187,7 +187,7 @@ export const projects = [
     techNames: ["Next.js", "Tailwind CSS"],
     techLinks: ["https://nextjs.org/", "https://tailwindcss.com/"],
     github: "https://github.com/nuIIpointerexception/",
-    demo: "https://github.com/nuIIpointerexception/",
+    demo: "https://imdb-philipjobran009-gmailcom.vercel.app/",
     image: "/projects/imdb.webp",
     available: true,
   },
